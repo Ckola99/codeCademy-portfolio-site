@@ -1,5 +1,3 @@
-# Frontend Mentor - Recipe page solution
-
 This repo contains a simple and very basic mock portfolio for CodeCademy fullstack course.
 
 ## Table of Contents
@@ -229,4 +227,3 @@ I aim to start using react after this rehash of javascript and really push mysel
 - [MDN](https://developer.mozilla.org/en-US/) - this website is what I used to make sure I used the correct selectors and available properties.
 - [ChatGPT](https://chatgpt.com) - I used chatgpt for small queries about my code where I couldn't necessarily see issues.
 - [Youtube](https://www.youtube.com/watch?v=rTB-UNl_B_Y&list=PLRCvSNiMyEmxBfXuFuQ70uxHcV9itxfTZ) - Where I learned how to make the carousel.
-
