@@ -11,8 +11,6 @@ This repo contains a simple and very basic mock portfolio for CodeCademy fullsta
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
