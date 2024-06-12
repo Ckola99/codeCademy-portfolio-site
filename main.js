@@ -68,3 +68,8 @@ leftArrow.addEventListener('click', () => {
     const newIndex = sectionIndex > 0 ? sectionIndex - 1 : sectionIndex;
     updateSlider(newIndex);
 });
+
+document.addEventListener('scroll', () => {
+    document.documentElement.style.scrollbarWidth = 'thin';
+    document.body.style.overflowY = 'scroll';
+});

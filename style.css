@@ -23,6 +23,7 @@ body {
 	font-family: "Karla";
 	color: white;
 	background-color: black;
+	overflow-x: hidden;
 }
 img,
 picture,
@@ -319,4 +320,29 @@ button {
 .project-title {
 	margin-top: 2rem;
 	font-size: 1.25rem;
+}
+
+/* Custom scroll bar styles */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: black; /* Background color of the scroll bar track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 255, 234); /* Neon color for the scroll bar thumb */
+    border-radius: 6px; /* Rounded corners */
+    border: 3px solid black; /* Border around the thumb for better visibility */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 255, 234, 0.7); /* Slightly different color on hover */
+}
+
+/* For Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(0, 255, 234) black;
 }
