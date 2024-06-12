@@ -8,6 +8,10 @@
 		/>
 		<title>Document</title>
 		<link rel="stylesheet" href="style.css" />
+		<link
+			href="https://fonts.googleapis.com/icon?family=Material+Icons"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
 		<main>
@@ -59,7 +63,13 @@
 							of software.
 						</p>
 
-						<button class="hire-button">Hire Me!</button>
+						<a href="./contact.html">
+							<button
+								class="hire-button"
+							>
+								Hire Me!
+							</button>
+						</a>
 					</div>
 
 					<img
@@ -68,10 +78,14 @@
 					/>
 				</div>
 
-				<div class="projects" id="projects">
-					<h2 class="section-title">Projects</h2>
-					<div class="carousel-container">
-						<button>Prev</button>
+				<h2
+					class="section-title projects-title"
+					id="projects"
+				>
+					Projects
+				</h2>
+				<div class="carousel-container">
+					<div class="slider">
 						<div class="project">
 							<img
 								src="./images/screencapture-ckola99-github-io-newsletter-sign-up-2024-06-10-18_54_02.png"
@@ -91,10 +105,25 @@
 								with thank you
 								state.
 							</p>
+							<a
+								href="https://ckola99.github.io/newsletter-sign-up/"
+								target="_blank"
+							>
+								<button
+									class="link"
+								>
+									view
+									<span
+										class="material-icons"
+									>
+										open_in_new
+									</span>
+								</button>
+							</a>
 						</div>
 						<div class="project">
 							<img
-								src=""
+								src="images/screencapture-127-0-0-1-5500-2024-05-21-15_24_05.png"
 								alt=""
 								class="projcet-img"
 							/>
@@ -112,10 +141,25 @@
 								with thank you
 								state.
 							</p>
+							<a
+								href=" https://ckola99.github.io/Interactive-rating-component/"
+								target="_blank"
+							>
+								<button
+									class="link"
+								>
+									view
+									<span
+										class="material-icons"
+									>
+										open_in_new
+									</span>
+								</button>
+							</a>
 						</div>
 						<div class="project">
 							<img
-								src=""
+								src="images/screencapture-127-0-0-1-5500-2024-05-30-22_46_15.png"
 								alt=""
 								class="projcet-img"
 							/>
@@ -131,31 +175,70 @@
 								Coming soon page
 								of Base Apparel
 							</p>
+							<a
+								href="https://ckola99.github.io/coming-soon-page/"
+								target="_blank"
+							>
+								<button
+									class="link"
+								>
+									view
+									<span
+										class="material-icons"
+									>
+										open_in_new
+									</span>
+								</button>
+							</a>
 						</div>
-						<button>Next</button>
+					</div>
+					<div class="controls">
+						<span
+							class="arrow left material-icons"
+						>
+							arrow_circle_left
+						</span>
+						<span
+							class="arrow right material-icons"
+						>
+							arrow_circle_right
+						</span>
+						<ul>
+							<li
+								class="selected"
+							></li>
+							<li></li>
+							<li></li>
+						</ul>
 					</div>
 				</div>
 
+				<h3 class="section-title skills-title">Skills</h3>
 				<div class="skills" id="skills">
-					<h3 class="section-title">Skills</h3>
+
 					<div class="skill">
-						<h3>HTML</h3>
-						<img src="" alt="" />
+						<span class="material-icons">
+							javascript
+						</span>
 					</div>
 					<div class="skill">
-						<h3>CSS</h3>
-						<img src="" alt="" />
+						<span class="material-icons">
+							css
+						</span>
 					</div>
 					<div class="skill">
-						<h3>Javascript</h3>
-						<img src="" alt="" />
+						<span class="material-icons">
+							html
+						</span>
 					</div>
 					<div class="skill">
-						<h3>React</h3>
-						<img src="" alt="" />
+						<span class="material-icons">
+							code
+						</span>
 					</div>
 				</div>
 			</div>
 		</main>
+		<script src="main.js"></script>
 	</body>
 </html>
